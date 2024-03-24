@@ -1,0 +1,140 @@
+object FrmLogin: TFrmLogin
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'FrmLogin'
+  ClientHeight = 550
+  ClientWidth = 902
+  Color = 4473924
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDefault
+  WindowState = wsMaximized
+  OnResize = FormResize
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnl_login: TPanel
+    Left = 224
+    Top = 76
+    Width = 465
+    Height = 365
+    Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = 6381921
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 160
+      Top = 98
+      Width = 39
+      Height = 18
+      Caption = 'Login'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = 6381921
+      Font.Height = -16
+      Font.Name = 'Arial'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = 160
+      Top = 181
+      Width = 45
+      Height = 18
+      Caption = 'Senha'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = 6381921
+      Font.Height = -16
+      Font.Name = 'Arial'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label3: TLabel
+      Left = 99
+      Top = 24
+      Width = 227
+      Height = 34
+      Caption = 'SISTEMA TESTE'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = 6381921
+      Font.Height = -29
+      Font.Name = 'Arial'
+      Font.Style = [fsBold, fsItalic]
+      ParentFont = False
+    end
+    object Image1: TImage
+      Left = 24
+      Top = 98
+      Width = 105
+      Height = 105
+    end
+    object ed_login: TEdit
+      Left = 160
+      Top = 120
+      Width = 161
+      Height = 26
+      Color = 16579836
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Arial'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 0
+    end
+    object ed_senha: TEdit
+      Left = 160
+      Top = 203
+      Width = 161
+      Height = 26
+      Color = 16579836
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Arial'
+      Font.Style = []
+      MaxLength = 8
+      ParentFont = False
+      PasswordChar = '*'
+      TabOrder = 1
+    end
+    object btn_acessar: TButton
+      Left = 64
+      Top = 294
+      Width = 169
+      Height = 41
+      Caption = 'Acessar'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = 6381921
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 2
+      OnClick = btn_acessarClick
+    end
+    object btn_sair: TButton
+      Left = 239
+      Top = 294
+      Width = 169
+      Height = 41
+      Caption = 'Sair Sistema'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = 6381921
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 3
+      OnClick = btn_sairClick
+    end
+  end
+end

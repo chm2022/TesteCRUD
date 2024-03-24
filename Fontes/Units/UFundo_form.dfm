@@ -1,0 +1,19 @@
+object Frm_fundo_form: TFrm_fundo_form
+  Left = 0
+  Top = 0
+  AlphaBlend = True
+  AlphaBlendValue = 210
+  BorderStyle = bsNone
+  ClientHeight = 503
+  ClientWidth = 668
+  Color = 3881787
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  WindowState = wsMaximized
+  PixelsPerInch = 96
+  TextHeight = 13
+end
